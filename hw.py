@@ -4,7 +4,7 @@ special = ".?!&#,;:-_* "
 nums = "1234567890"
 
 def isValid(password):
-    return 1 in [1 for p in password if p in lower] and 1 in [1 for p in password if p in upper]
+    return 1 in [1 for p in password if p in lower] and 1 in [1 for p in password if p in upper] and 1 in [1 for p in password if p in nums]
 
 
 def chaEvaluator(last, password):
